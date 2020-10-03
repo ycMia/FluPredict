@@ -6,6 +6,8 @@ using UnityEngine;
 public class Monoer : MonoBehaviour
 {
     public float ballSize;
+    private Vector3 parentVector;
+
     private int state = 0;
     public int State { get => state; set => state = value; }
 
